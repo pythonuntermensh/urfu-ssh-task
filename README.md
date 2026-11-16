@@ -29,3 +29,9 @@ ssh -T git@github.com
 После ввода passphrase GitHub подтвердил успешную аутентификацию.
 
 ![Проверка SSH-подключения](screenshots/03-connection.jpg)
+
+## 4. Работа с репозиторием
+
+Клонировал [репозиторий](https://github.com/pythonuntermensh/urfu-ssh-task) по SSH, создал коммит с отчетом и отправил его в ветку `main` через `git push`.
+
+![Клонирование, коммит и push](screenshots/04-clone-commit-push.png)
